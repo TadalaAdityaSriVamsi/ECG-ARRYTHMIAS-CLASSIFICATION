@@ -1,0 +1,17 @@
+{% include 'base.html' %}
+{% block content %}
+    <center><h2>USER</h2></center>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/blogin" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <input type="submit" id="loginBtnu" value="Login">
+          <div>
+            <p>Don't have an account? <a href="/br">create new account</a></p>
+            </div>
+        </form>
+      </div>
+{% endblock %}

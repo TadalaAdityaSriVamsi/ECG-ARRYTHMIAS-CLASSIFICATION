@@ -1,0 +1,27 @@
+{% include 'base.html' %}
+{% block content %}
+    <center><h2>Buyer</h2></center>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="/bregister" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="location">Location:</label>
+          <input type="text" id="Location" name="Location" required>
+
+          <label for="Phone no">Phone no:</label>
+          <input type="text" id="Phone no" name="Phone no" required>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <input type="submit" id="signup" value="register">
+          <div>
+            <p>Don't have an account? <a href="/bl">create new account</a></p>
+            </div>
+        </form>
+    </div>
+{% endblock %}

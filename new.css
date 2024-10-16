@@ -1,0 +1,261 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image:url(../img/meddd.jpeg);
+  background-size: cover;
+  padding: 0;
+}
+header {
+  /*background-color: rgba(219, 70, 70, 0.459);*/
+  background-color: #8a8e6e;
+  color:black;
+  padding: 10px 0;
+  font-family: "brush script";
+  text-align: center;
+}/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  background: #829395;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  background: #fff;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+.container2 {
+  margin: 200px auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #c5d9dc93;
+}
+.container {
+  margin: 50px auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #c5d9dc93;
+}
+
+.container3 {
+  margin: 50px auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #c5d9dc93;
+  align-content: center;
+}
+
+.container4 {
+  margin: 50px auto;
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #c5d9dc93;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="email"], input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+.upload-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.upload-form input[type="file"] {
+display: inline-block;
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+.upload-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.upload-btn input[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+
+
+
+.dropdown {
+  width: 200px; /* Adjust the width as needed */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Style for the dropdown options */
+.dropdown option {
+  padding: 8px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style for the dropdown when it's focused */
+.dropdown:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+
+
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageCSSSontainer img {
+  width: 30%; /* Adjust the width as needed */
+  height:auto;
+}
+
+
+
+
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}

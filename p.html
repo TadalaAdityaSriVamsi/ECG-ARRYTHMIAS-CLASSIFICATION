@@ -1,0 +1,14 @@
+
+
+{% include 'bb.html' %}
+{% block content %}
+    <center><h2>User</h2></center>
+    <div class="container4">
+        <form action="/pre" method="post">
+            <label for="inputData">Enter your data:</label><br>
+            <textarea id="inputData" name="inputData" rows="10" cols="50" placeholder="Enter your data here..."></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+{% endblock %}
